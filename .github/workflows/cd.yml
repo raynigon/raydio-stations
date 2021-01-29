@@ -1,0 +1,22 @@
+name: CD
+
+on:
+  push:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.3.4
+    - uses: actions/setup-python@v2.2.1
+    - name: "Build Bundles and Station Repository"
+      run: python3 rscli/build_repo.py
+    - name: Upload Station Repository
+      uses: sebastianpopp/ftp-action@releases/v2
+      with:
+        host: ${{ secrets.WEBSPACE_HOST }}
+        user: ${{ secrets.WEBSPACE_USER }}
+        password: ${{ secrets.WEBSPACE_PASSWORD }}
+        localDir: "build/"
+        remoteDir: "v1/"
