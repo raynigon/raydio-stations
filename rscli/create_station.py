@@ -3,7 +3,7 @@ import json
 import os
 
 country = "de"
-container = "wdr"
+container = "br"
 name = input("Station Name:")
 stream = input("Stream Url:")
 

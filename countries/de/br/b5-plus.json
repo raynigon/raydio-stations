@@ -1,0 +1,22 @@
+{
+    "id": "eebfc28a-e178-4e19-9cae-eb0e8c311b62",
+    "name": "B5 plus",
+    "imageUrl": null,
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-b5plus-live.cast.addradio.de/br/b5plus/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-b5plus-live.cast.addradio.de/br/b5plus/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-b5plus-live.cast.addradio.de/br/b5plus/live/mp3/mid"
+        }
+    ]
+}

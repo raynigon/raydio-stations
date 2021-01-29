@@ -1,0 +1,22 @@
+{
+    "id": "64e7d28c-834c-417d-97d3-f617e59f568d",
+    "name": "B5 aktuell",
+    "imageUrl": null,
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-b5aktuell-live.cast.addradio.de/br/b5aktuell/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-b5aktuell-live.cast.addradio.de/br/b5aktuell/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-b5aktuell-live.cast.addradio.de/br/b5aktuell/live/mp3/mid"
+        }
+    ]
+}

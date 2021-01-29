@@ -1,0 +1,22 @@
+{
+    "id": "4ad56004-2b72-4a94-a4b7-9218885656db",
+    "name": "Bayern1 Franken",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bayern1-logo.svg/1200px-Bayern1-logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br1-franken.cast.addradio.de/br/br1/franken/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br1-franken.cast.addradio.de/br/br1/franken/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br1-franken.cast.addradio.de/br/br1/franken/mp3/mid"
+        }
+    ]
+}

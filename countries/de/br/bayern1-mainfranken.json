@@ -1,0 +1,22 @@
+{
+    "id": "e3fa05cb-9354-4125-ae48-40d830a6207a",
+    "name": "Bayern1 Mainfranken",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bayern1-logo.svg/1200px-Bayern1-logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br1-mainfranken.cast.addradio.de/br/br1/mainfranken/mp3/mid"
+        }
+    ]
+}

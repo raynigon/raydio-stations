@@ -1,0 +1,22 @@
+{
+    "id": "54c5352b-d4f8-4fe3-9185-245dba3507ab",
+    "name": "BR Heimat",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/BR_Heimat_Logo.svg/1200px-BR_Heimat_Logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-brheimat-live.cast.addradio.de/br/brheimat/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-brheimat-live.cast.addradio.de/br/brheimat/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-brheimat-live.cast.addradio.de/br/brheimat/live/mp3/mid"
+        }
+    ]
+}

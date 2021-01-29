@@ -1,0 +1,22 @@
+{
+    "id": "c1a70499-80a7-44c2-a76e-21735a3f96e1",
+    "name": "BR Schlager",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/BR_Schlager_Logo_2021.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-brschlager-live.cast.addradio.de/br/brschlager/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-brschlager-live.cast.addradio.de/br/brschlager/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-brschlager-live.cast.addradio.de/br/brschlager/live/mp3/mid"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "cb9347d1-672c-40ae-9f9e-ff0fde530195",
+    "name": "Bayern2 Nord",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Bayern_2_%282007%29.svg/1000px-Bayern_2_%282007%29.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br2-nord.cast.addradio.de/br/br2/nord/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br2-nord.cast.addradio.de/br/br2/nord/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br2-nord.cast.addradio.de/br/br2/nord/mp3/mid"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "id": "159027b0-d79f-4779-a6ef-b39319e64e41",
+    "name": "BR-Klassik",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/BR_KLASSIK_121023_web_rgb.jpg",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-brklassik-live.cast.addradio.de/br/brklassik/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-brklassik-live.cast.addradio.de/br/brklassik/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-brklassik-live.cast.addradio.de/br/brklassik/live/mp3/mid"
+        },
+        {
+            "type": "mp3",
+            "rate": 192,
+            "url": "http://br-brklassik-live.cast.addradio.de/br/brklassik/live/mp3/high"
+        }
+    ]
+}

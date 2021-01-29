@@ -1,0 +1,27 @@
+{
+    "id": "8a0274e5-7b71-47a2-ba84-88c4725ece67",
+    "name": "Bayern2 S\u00fcd",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Bayern_2_%282007%29.svg/1000px-Bayern_2_%282007%29.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br2-sued.cast.addradio.de/br/br2/sued/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br2-sued.cast.addradio.de/br/br2/sued/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br2-sued.cast.addradio.de/br/br2/sued/mp3/mid"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br2-sued.cast.addradio.de/br/br2/sued/mp3/mid"
+        }
+    ]
+}

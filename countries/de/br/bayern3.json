@@ -1,0 +1,22 @@
+{
+    "id": "4d5afb5f-2840-4f7d-a75c-006615ebc1d5",
+    "name": "Bayern3",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bayern3_logo_2015.svg/1200px-Bayern3_logo_2015.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br3-live.cast.addradio.de/br/br3/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br3-live.cast.addradio.de/br/br3/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br3-live.cast.addradio.de/br/br3/live/mp3/mid"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "ecfe8357-fad9-4a67-aa25-8b4c7b5aa34d",
+    "name": "Bayern1 Niederbayern-Oberpfalz",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bayern1-logo.svg/1200px-Bayern1-logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br1-nbopf.cast.addradio.de/br/br1/nbopf/mp3/mid"
+        }
+    ]
+}

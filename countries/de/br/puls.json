@@ -1,0 +1,22 @@
+{
+    "id": "aeed30e8-fe09-464c-b120-6b766e3943de",
+    "name": "Puls",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BR_puls_Logo.svg/1200px-BR_puls_Logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-puls-live.cast.addradio.de/br/puls/live/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-puls-live.cast.addradio.de/br/puls/live/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-puls-live.cast.addradio.de/br/puls/live/mp3/mid"
+        }
+    ]
+}

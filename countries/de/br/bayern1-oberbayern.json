@@ -1,0 +1,22 @@
+{
+    "id": "80c5ae96-250f-41dc-bf9a-1301ebb44a66",
+    "name": "Bayern1 Oberbayern",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bayern1-logo.svg/1200px-Bayern1-logo.svg.png",
+    "streams": [
+        {
+            "type": "aac",
+            "rate": 64,
+            "url": "http://br-br1-obb.cast.addradio.de/br/br1/obb/aac/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 64,
+            "url": "http://br-br1-obb.cast.addradio.de/br/br1/obb/mp3/low"
+        },
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://br-br1-obb.cast.addradio.de/br/br1/obb/mp3/mid"
+        }
+    ]
+}
