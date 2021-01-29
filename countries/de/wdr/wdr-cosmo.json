@@ -1,0 +1,12 @@
+{
+    "id": "94683b02-3b1d-4cdd-8cd0-b32def8444c4",
+    "name": "WDR COSMO",
+    "imageUrl": "https://www1.wdr.de/funkhaus-europa-wird-cosmo-106~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3"
+        }
+    ]
+}

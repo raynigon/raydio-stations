@@ -1,0 +1,12 @@
+{
+    "id": "a8fe2e51-ee66-4fc9-ad3b-73efd7eca80a",
+    "name": "1Live HIPHOP",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-hiphop.icecast.wdr.de/wdr/1live/hiphop/mp3/128/stream.mp3"
+        }
+    ]
+}

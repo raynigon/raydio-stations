@@ -1,0 +1,12 @@
+{
+    "id": "92eff596-d10b-4d45-ac24-15a82897a5ed",
+    "name": "WDR 5",
+    "imageUrl": "https://www1.wdr.de/radio/wdr5/logo-110~_v-gseaclassicxl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3"
+        }
+    ]
+}

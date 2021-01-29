@@ -1,0 +1,12 @@
+{
+    "id": "31e7c334-7a7e-42d9-a07f-b2d9f8493d0a",
+    "name": "1Live FIEHE",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3"
+        }
+    ]
+}

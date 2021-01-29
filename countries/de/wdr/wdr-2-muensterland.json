@@ -1,0 +1,12 @@
+{
+    "id": "a02b8174-a5af-43f2-bd1d-979da753c6d1",
+    "name": "WDR 2 (M\u00fcnsterland)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3"
+        }
+    ]
+}

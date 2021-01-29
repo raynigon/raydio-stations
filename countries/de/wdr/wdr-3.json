@@ -1,0 +1,17 @@
+{
+    "id": "be67c32b-94b1-41d6-9a86-248c33c4fc0e",
+    "name": "WDR 3",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/WDR_3_logo_2012.svg/1200px-WDR_3_logo_2012.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3"
+        },
+        {
+            "type": "mp3",
+            "rate": 256,
+            "url": "http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3"
+        }
+    ]
+}

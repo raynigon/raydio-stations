@@ -1,0 +1,12 @@
+{
+    "id": "3eae985e-0b68-4562-a207-affc509169f9",
+    "name": "WDR 4",
+    "imageUrl": "https://www1.wdr.de/radio/wdr4/wdrvier-logo-100~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3"
+        }
+    ]
+}

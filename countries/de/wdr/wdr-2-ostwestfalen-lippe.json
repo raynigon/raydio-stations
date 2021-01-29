@@ -1,0 +1,12 @@
+{
+    "id": "d28721af-6edf-41c8-92ae-6b03524b4d62",
+    "name": "WDR 2 (Ostwestfalen-Lippe)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3"
+        }
+    ]
+}

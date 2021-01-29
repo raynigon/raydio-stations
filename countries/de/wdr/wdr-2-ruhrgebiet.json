@@ -1,0 +1,12 @@
+{
+    "id": "a00e575d-1faa-47c2-991a-2a1e67833037",
+    "name": "WDR 2 (Ruhrgebiet)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3"
+        }
+    ]
+}

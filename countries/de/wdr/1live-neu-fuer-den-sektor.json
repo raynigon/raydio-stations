@@ -1,0 +1,12 @@
+{
+    "id": "e05e4216-f70c-48f8-b7ea-5111a66303e8",
+    "name": "1Live NEU FÜR DEN SEKTOR",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-neufuerdensektor.icecast.wdr.de/wdr/1live/neufuerdensektor/mp3/128/stream.mp3"
+        }
+    ]
+}

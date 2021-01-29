@@ -1,0 +1,12 @@
+{
+    "id": "23fa6cea-d064-4d5f-969f-735f71144079",
+    "name": "1Live",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3"
+        }
+    ]
+}

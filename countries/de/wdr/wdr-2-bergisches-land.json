@@ -1,0 +1,12 @@
+{
+    "id": "30018e8f-4eef-45fe-b656-1d56ba05e102",
+    "name": "WDR 2 (Bergisches Land)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-bergischesland.icecast.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3"
+        }
+    ]
+}

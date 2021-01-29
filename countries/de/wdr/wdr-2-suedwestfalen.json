@@ -1,0 +1,12 @@
+{
+    "id": "66fcde86-23a7-46a7-8e7f-778fd5fac90a",
+    "name": "WDR 2 (S\u00fcdwestfalen)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-suedwestfalen.icecast.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3"
+        }
+    ]
+}

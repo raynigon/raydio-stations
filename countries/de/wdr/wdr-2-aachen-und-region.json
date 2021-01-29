@@ -1,0 +1,12 @@
+{
+    "id": "7c35d75e-19b9-49ef-bae5-82a6bf60ad07",
+    "name": "WDR 2 (Aachen und Region)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-aachenundregion.icecast.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3"
+        }
+    ]
+}

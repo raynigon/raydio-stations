@@ -1,0 +1,12 @@
+{
+    "id": "0e9aae9e-d296-4482-82a5-9328db954332",
+    "name": "1Live Diggi",
+    "imageUrl": "https://www.ard.de/image/451796/16x9/4788844179218413185/448",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "0de024ce-f52d-49e0-9990-6ccde1befa83",
+    "name": "1Live PLAN B",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-planb.icecast.wdr.de/wdr/1live/planb/mp3/128/stream.mp3"
+        }
+    ]
+}

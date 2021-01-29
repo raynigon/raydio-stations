@@ -1,0 +1,12 @@
+{
+    "id": "306f97c6-4e83-40f5-a4c3-e81e3dcd827e",
+    "name": "WDR 2 (Rheinland)",
+    "imageUrl": "https://www1.wdr.de/radio/startseite/symbolbilder/dummy-logo108~_v-gseagaleriexl.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3"
+        }
+    ]
+}

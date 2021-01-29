@@ -1,0 +1,12 @@
+{
+    "id": "5176cd25-90b1-4799-a5e5-84e84de7ff88",
+    "name": "1Live DJ SESSION",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/WDR_1LIVE_Logo_2016.svg/1000px-WDR_1LIVE_Logo_2016.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": 128,
+            "url": "http://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3"
+        }
+    ]
+}
