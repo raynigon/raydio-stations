@@ -3,26 +3,21 @@ import os
 import click
 from .main import main
 from typing import List
+from database import read_database, DatabaseStation, StationDatabase, DatabaseRadioStream
 from repository import StationRepository, RepositoryBundle, RepositoryStation, WebRadioStream, write_repository, RepositoryValidationException
 
 
-def _read_stations(source: str)->List[RepositoryStation]:
+def _to_repository(db: StationDatabase)->StationRepository:
     stations = []
-    iterateable = os.walk(source)
-    with click.progressbar(iterateable) as it:
-        for path,_,files in it:
-            for filename in files:
-                if not filename.endswith(".json"):
-                    continue
-                full_path = os.path.join(path, filename)
-                with open(full_path) as file:
-                    station_dict = json.load(file)
-                station = RepositoryStation(station_dict["id"], station_dict["name"], station_dict["imageUrl"])
-                for stream_dict in station_dict["streams"]:
-                    stream = WebRadioStream(stream_dict["type"], stream_dict["rate"], stream_dict["url"])
-                    station.streams.append(stream)
-                stations.append(station)
-    return stations
+    for db_station in db.stations:
+        station = RepositoryStation(db_station.id, db_station.name, db_station.image_url)
+        for db_stream in db_station.streams:
+            stream = WebRadioStream(db_stream.type, db_stream.rate, db_stream.url)
+            station.streams.append(stream)
+        stations.append(station)
+
+    bundle = RepositoryBundle(1, "Europe 1", stations)
+    return StationRepository([bundle])
 
 
 @main.command()
@@ -32,11 +27,8 @@ def build_repo(source: str, target: str):
     """
     Build the repository layout from data folder.
     """
-    click.echo("This is a CLI built with Click ✨")
-    
-    stations = _read_stations(source)
-    bundle = RepositoryBundle(1, "Europe 1", stations)
-    repo = StationRepository([bundle])
+    database = read_database(source)
+    repo = _to_repository(database)
 
     try:
         write_repository(repo, target)
@@ -44,5 +36,8 @@ def build_repo(source: str, target: str):
         click.secho("Repository contains errors:", fg='red')
         for error in ex.errors:
             click.secho(error, fg='red')
+        exit(1)
+    click.echo(f"Created Station Repository in '{target}'")
+
 
 
