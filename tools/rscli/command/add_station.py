@@ -1,21 +1,21 @@
-import uuid
 import json
 import os
+import click
+from .main import main
+from typing import List
+from database import read_database, DatabaseStation, StationDatabase, DatabaseRadioStream
 
-country = "de"
-container = "br"
-name = input("Station Name:")
-stream = input("Stream Url:")
 
-filename = name.lower().replace(" ", "-").replace("ü","ue").replace("ä","ae").replace("ö","oe").replace("(","").replace(")","")+".json"
-with open(os.path.join("countries", country, container, filename), "w") as file:
-    json.dump({
-        "id": str(uuid.uuid4()),
-        "name": name,
-        "imageUrl": None,
-        "streams": [{
-            "type": "mp3",
-            "rate": 128,
-            "url": stream
-        }]
-    }, file, indent=4) 
+
+@main.command()
+@click.option("--source", "-s", default="data/", help='The Directory which contains the stations as JSON files')
+@click.option("--name", help='The name of the station which should be created')
+@click.option("--image-url", help='The image url of the station which should be created')
+@click.option("--stream-url", help='The stream url of the station which should be created')
+@click.option("--stream-type", help='The stream type of the station which should be created')
+@click.option("--stream-rate", help='The stream rate of the station which should be created')
+def add_station(source: str, target: str):
+    """
+    Create a new station and add it to the database
+    """
+    pass
