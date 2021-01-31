@@ -128,5 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Editor
+.vscode/
+
 # Build Folder
 build/

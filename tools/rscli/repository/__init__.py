@@ -23,4 +23,4 @@ class RepositoryValidationException(Exception):
 
     def __init__(self, errors: List[str]):
         super().__init__(self, "Station Repository contains errors")
-        self.errors = [] #errors
+        self.errors = errors

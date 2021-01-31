@@ -9,7 +9,7 @@ class WebRadioStream:
 
     def __init__(self, type: str, rate: int, url: str):
         self.type = type
-        self.rate = rate,
+        self.rate = rate
         self.url = url
 
     def validate(self) -> List[str]:
@@ -35,7 +35,6 @@ class WebRadioStream:
         return result
 
     def to_dict(self) -> Dict[str, Any]:
-        print(self.rate)
         return {
             "type": self.type,
             "rate": self.rate,
@@ -60,10 +59,10 @@ class RepositoryStation:
                 f"RepositoryStation name is not a string (got: {self.name})")
         if self.imageUrl is None:
             result.append(
-                f"RepositoryStation imageUrl is missing")
+                f"RepositoryStation ({self.name}) imageUrl is missing")
         elif not self.imageUrl is not None and isinstance(self.imageUrl, str):
             result.append(
-                f"RepositoryStation imageUrl is not a string (got: {self.imageUrl})")
+                f"RepositoryStation ({self.name}) imageUrl is not a string (got: {self.imageUrl})")
         for stream in self.streams:
             result.extend(
                 map(lambda x: f"{self.name} -> {x}", stream.validate()))

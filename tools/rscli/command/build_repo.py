@@ -19,7 +19,6 @@ def _read_stations(source: str)->List[RepositoryStation]:
                     station_dict = json.load(file)
                 station = RepositoryStation(station_dict["id"], station_dict["name"], station_dict["imageUrl"])
                 for stream_dict in station_dict["streams"]:
-                    print(stream_dict)
                     stream = WebRadioStream(stream_dict["type"], stream_dict["rate"], stream_dict["url"])
                     station.streams.append(stream)
                 stations.append(station)
