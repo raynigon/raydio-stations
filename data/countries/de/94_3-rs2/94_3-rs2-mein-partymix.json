@@ -1,0 +1,17 @@
+{
+    "id": "385fb2aa-9678-4a7d-bf36-9003c3dafd9f",
+    "name": "94,3 rs2 - Mein Partymix",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/45242_logo-rs2-1819_02_1280x720.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://stream.rs2.de/rs2-relax/mp3-128"
+        },
+        {
+            "type": "aac",
+            "rate": "48",
+            "url": "http://stream.rs2.de/rs2-relax/aac-48"
+        }
+    ]
+}

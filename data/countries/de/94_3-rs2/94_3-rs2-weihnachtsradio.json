@@ -1,0 +1,12 @@
+{
+    "id": "c3ced680-d97e-4033-8cac-e94aee7f7664",
+    "name": "94,3 rs2 - Weihnachtsradio",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/45242_logo-rs2-1819_02_1280x720.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://stream.rs2.de/weihnachtsradio/mp3-128"
+        }
+    ]
+}

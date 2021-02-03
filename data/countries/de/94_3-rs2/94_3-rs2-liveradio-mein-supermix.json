@@ -1,0 +1,17 @@
+{
+    "id": "48323f37-36e0-41f1-ba12-1d741692dc88",
+    "name": "94,3 rs2 - Liveradio Mein Supermix",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/45242_logo-rs2-1819_02_1280x720.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://stream.rs2.de/rs2/mp3-128"
+        },
+        {
+            "type": "aac",
+            "rate": "48",
+            "url": "http://stream.rs2.de/rs2/aac-48"
+        }
+    ]
+}

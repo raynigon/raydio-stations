@@ -1,0 +1,17 @@
+{
+    "id": "da978449-b037-4f99-9c66-5441ee024a5e",
+    "name": "Radio TEDDY - Kinderdisco",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Radio_Teddy_Logo.svg/1200px-Radio_Teddy_Logo.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/disco/mp3-128/web/play.m3u"
+        }
+    ]
+}
