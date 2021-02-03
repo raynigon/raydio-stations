@@ -2,27 +2,27 @@ name: CD
 
 on:
   push:
-    branches: main
+    branches: [main]
 
 jobs:
   build:
     name: "Build Station Repository"
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2.3.4
-    - uses: actions/setup-python@v2.2.1
-    - name: "Build Bundles and Station Repository"
-      run: python3 rscli/build_repo.py
-    - name: Station Repository Artifact
-      uses: actions/upload-artifact@v1.0.0
-      with:
-        name: "Station Repository"
-        path: "build/"
-    - name: Upload Station Repository
-      uses: sebastianpopp/ftp-action@releases/v2
-      with:
-        host: ${{ secrets.WEBSPACE_HOST }}
-        user: ${{ secrets.WEBSPACE_USER }}
-        password: ${{ secrets.WEBSPACE_PASSWORD }}
-        localDir: "build/"
-        remoteDir: "v1/"
+      - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-python@v2.2.1
+      - name: "Build Bundles and Station Repository"
+        run: python3 rscli/main.py build-repo
+      - name: Station Repository Artifact
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: "Station Repository"
+          path: "build/"
+      - name: Upload Station Repository
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.WEBSPACE_HOST }}
+          user: ${{ secrets.WEBSPACE_USER }}
+          password: ${{ secrets.WEBSPACE_PASSWORD }}
+          localDir: "build/"
+          remoteDir: "v1/"

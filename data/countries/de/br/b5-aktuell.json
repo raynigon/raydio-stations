@@ -1,7 +1,7 @@
 {
     "id": "64e7d28c-834c-417d-97d3-f617e59f568d",
     "name": "B5 aktuell",
-    "imageUrl": null,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/B5_aktuell_%282007%29.svg/1000px-B5_aktuell_%282007%29.svg.png",
     "streams": [
         {
             "type": "aac",
