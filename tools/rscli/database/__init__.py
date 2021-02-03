@@ -11,9 +11,6 @@ def read_database(source: str)->StationDatabase:
             full_path = os.path.join(path, filename)
             with open(full_path) as file:
                 station_dict = json.load(file)
-            station = DatabaseStation(station_dict["id"], full_path, station_dict["name"], station_dict["imageUrl"])
-            for stream_dict in station_dict["streams"]:
-                stream = DatabaseRadioStream(stream_dict["type"], stream_dict["rate"], stream_dict["url"])
-                station.streams.append(stream)
+            station = DatabaseStation.from_dict(station_dict, full_path)
             stations.append(station)
     return StationDatabase(stations)

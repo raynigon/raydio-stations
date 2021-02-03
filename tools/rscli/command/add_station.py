@@ -1,11 +1,21 @@
 import json
 import os
 import click
+import uuid
 from .main import main
 from typing import List
 from database import read_database, DatabaseStation, StationDatabase, DatabaseRadioStream
 
-
+def _name_to_filepath(source: str, name: str, country: str, corporation: str):
+    base = os.path.join(source, "countries", country, corporation)
+    filename = name.lower()\
+        .replace(" ", "-")\
+        .replace("ü","ue")\
+        .replace("ä","ae")\
+        .replace("ö","oe")\
+        .replace("(","")\
+        .replace(")","")
+    return os.path.join(base, f"{filename}.json")
 
 @main.command()
 @click.option("--source", "-s", default="data/", help='The Directory which contains the stations as JSON files')
@@ -14,8 +24,23 @@ from database import read_database, DatabaseStation, StationDatabase, DatabaseRa
 @click.option("--stream-url", help='The stream url of the station which should be created')
 @click.option("--stream-type", help='The stream type of the station which should be created')
 @click.option("--stream-rate", help='The stream rate of the station which should be created')
-def add_station(source: str, target: str):
+@click.option("--country", help='The origin country of the station', default="global")
+@click.option("--corporation", help='The broadcasting corporation', default="unknown")
+def add_station(source: str, name: str, image_url: str, stream_url: str, stream_type: str, stream_rate: int, country: str, corporation: str):
     """
     Create a new station and add it to the database
     """
-    pass
+    database = read_database(source)
+    if name is None:
+        name = click.prompt('Station Name')
+    if stream_url is None:
+        stream_url = click.prompt('Stream Url')
+    if stream_type is None:
+        stream_type = click.prompt('Stream Type')
+    if stream_rate is None:
+        stream_rate = click.prompt('Stream Rate', type=int)
+    streams = [DatabaseRadioStream(stream_type, stream_rate, stream_url)]
+    station = DatabaseStation(str(uuid.uuid4()), _name_to_filepath(source, name, country, corporation), name, image_url, streams)
+    database.add_station(station)
+    database.save()
+        
