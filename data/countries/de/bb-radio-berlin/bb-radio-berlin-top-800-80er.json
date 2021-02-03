@@ -1,0 +1,12 @@
+{
+    "id": "062f9012-aac6-4012-8f9b-df90d06f3783",
+    "name": "BB Radio (Berlin) - Top 800 - 80er",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "de/brf-80er_mp3-128",
+            "rate": "128",
+            "url": "https://topradio-stream20.radiohost.de/brf-80er_mp3-128"
+        }
+    ]
+}

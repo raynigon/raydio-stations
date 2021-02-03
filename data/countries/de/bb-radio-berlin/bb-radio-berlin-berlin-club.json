@@ -1,0 +1,17 @@
+{
+    "id": "ca7a2b71-5d04-453a-b40e-9ce8dd69576a",
+    "name": "BB Radio (Berlin) - Berlin Club",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/berlin/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/berlin/mp3-128/web/play.m3u"
+        }
+    ]
+}

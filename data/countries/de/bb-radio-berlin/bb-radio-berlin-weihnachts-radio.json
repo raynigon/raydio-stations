@@ -1,0 +1,12 @@
+{
+    "id": "f12802e3-cafb-4545-bd67-0ab8e74d221d",
+    "name": "BB Radio (Berlin) - Weihnachts-Radio",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "de/brf-weihnachten_mp3-128",
+            "rate": "128",
+            "url": "https://topradio-stream20.radiohost.de/brf-weihnachten_mp3-128"
+        }
+    ]
+}

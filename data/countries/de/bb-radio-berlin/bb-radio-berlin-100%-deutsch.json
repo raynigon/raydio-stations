@@ -1,0 +1,12 @@
+{
+    "id": "56f7348b-9779-4d67-811a-44b9fcfe649a",
+    "name": "BB Radio (Berlin) - 100% Deutsch",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "de/brf-100prozent-deutsch_mp3-128",
+            "rate": "128",
+            "url": "https://topradio-de-hz-fal-stream08-cluster01.radiohost.de/brf-100prozent-deutsch_mp3-128"
+        }
+    ]
+}

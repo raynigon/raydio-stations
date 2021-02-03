@@ -1,0 +1,17 @@
+{
+    "id": "b2218129-7fc0-480b-9c2d-98b197cd0bbe",
+    "name": "Berliner Rundfunk 91.4",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://topradio-stream19.radiohost.de/brf_mp3-128"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://stream.berliner-rundfunk.de/brf/mp3-128/radioplayerde/;stream.nsv"
+        }
+    ]
+}

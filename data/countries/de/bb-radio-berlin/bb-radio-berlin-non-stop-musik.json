@@ -1,0 +1,12 @@
+{
+    "id": "75266a40-8488-4e7f-bddf-d9a08faed5d2",
+    "name": "BB Radio (Berlin) - Non-Stop Musik",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "de/brf-pure_mp3-128",
+            "rate": "128",
+            "url": "https://topradio-de-hz-fal-stream10-cluster01.radiohost.de/brf-pure_mp3-128"
+        }
+    ]
+}
