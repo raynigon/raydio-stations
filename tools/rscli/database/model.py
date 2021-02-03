@@ -151,8 +151,15 @@ class StationDatabase:
         self.__stations = stations
         self.__station_by_id = {}
         self.__station_by_path = {}
+        self.__station_by_stream = {}
         self.__deleted_stations = []
         self.rebuild_index()
+
+    def __index_station(self, station):
+        self.__station_by_id[station.id] = station
+        self.__station_by_path[station.path] = station
+        for stream in station.streams:
+            self.__station_by_stream[stream.url] = station
 
     def rebuild_index(self):
         """
@@ -161,15 +168,13 @@ class StationDatabase:
         self.__station_by_id = {}
         self.__station_by_path = {}
         for station in self.__stations:
-            self.__station_by_id[station.id] = station
-            self.__station_by_path[station.path] = station
+            self.__index_station(station)
 
     def add_station(self, station: DatabaseStation):
         if self.find_by_id(station.id):
             raise Exception(f"A Station with the id '{station.id}' already exists")
         self.__stations.append(station)
-        self.__station_by_id[station.id] = station
-        self.__station_by_path[station.path] = station
+        self.__index_station(station)
         station.edited()
 
     def delete_station(self, station: DatabaseStation):
@@ -187,6 +192,11 @@ class StationDatabase:
         if filepath not in self.__station_by_path.keys():
             return None
         return self.__station_by_path[filepath]
+
+    def find_by_stream(self, stream)->DatabaseStation:
+        if stream not in self.__station_by_stream.keys():
+            return None
+        return self.__station_by_stream[stream]
 
     @property
     def stations(self):
