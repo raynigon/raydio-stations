@@ -1,0 +1,32 @@
+{
+    "id": "0c02c746-1bdf-429c-9aba-069d216196ec",
+    "name": "NDR Kultur",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/NDR_Kultur_Logo.svg/1200px-NDR_Kultur_Logo.svg.png",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndrkultur.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndrkultur-live.cast.addradio.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndrkultur.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndrkultur.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "32",
+            "url": "https://ndr-edge-20ac-fra-lg-cdn.cast.addradio.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
+        }
+    ]
+}

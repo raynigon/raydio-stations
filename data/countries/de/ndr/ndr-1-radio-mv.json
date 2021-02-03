@@ -1,0 +1,27 @@
+{
+    "id": "b7fd5599-fd28-4da2-9cf8-74a65092fff5",
+    "name": "NDR 1 Radio MV",
+    "imageUrl": "https://www.ndr.de/media/logo276_v-contentxl.jpg",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndr1radiomv.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndr1radiomv-schwerin.cast.addradio.de/ndr/ndr1radiomv/schwerin/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndr1radiomv_sn.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndr1radiomv.m3u"
+        }
+    ]
+}

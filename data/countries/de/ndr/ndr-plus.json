@@ -1,0 +1,27 @@
+{
+    "id": "4875509e-5ad6-40d4-a77e-b3e407d728b1",
+    "name": "NDR Plus",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/NDR_Plus_Logo_2018.svg/1200px-NDR_Plus_Logo_2018.svg.png",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndrplus.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndrplus-live.cast.addradio.de/ndr/ndrplus/live/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndrplus.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndrplus.m3u"
+        }
+    ]
+}

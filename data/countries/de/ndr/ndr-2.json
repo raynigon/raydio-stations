@@ -1,0 +1,27 @@
+{
+    "id": "ffc3b9a8-3225-4920-ac21-0da26f29f5f1",
+    "name": "NDR 2",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/NDR_2_Logo.svg/1200px-NDR_2_Logo.svg.png",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndr2.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndr2-niedersachsen.cast.addradio.de/ndr/ndr2/niedersachsen/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndr2_nds.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndr2.m3u"
+        }
+    ]
+}

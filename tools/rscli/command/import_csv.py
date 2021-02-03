@@ -22,7 +22,7 @@ def row_to_station(source, row):
     name = row[3]
     rate = row[4]
     stream = row[5]
-    stream_type = stream.split(".")[:-1]
+    stream_type = stream.split(".")[-1]
     stream = DatabaseRadioStream(stream_type, rate, stream)
     station = DatabaseStation(str(uuid.uuid4()), name_to_filepath(source, name, country, corporation), name, image_url, [stream])
     return station
