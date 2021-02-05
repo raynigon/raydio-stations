@@ -55,5 +55,5 @@ def validate_stream(stream: DatabaseRadioStream) -> List[str]:
     except Exception as ex:
         return [f"Unable to read Stream Information for {stream.url}"+str(ex)]
     if stream_info.bit_rate != int(stream.rate):
-        return [f"{stream.url} differs in bit rate, expected {stream.rate} actual {bit_rate}"]
+        return [f"Bit Rate Difference, expected: {stream.rate} actual: {stream_info.bit_rate} for {stream.url}"]
     return []
