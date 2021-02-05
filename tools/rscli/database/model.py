@@ -10,7 +10,7 @@ class DatabaseRadioStream:
 
     def __init__(self, type: str, rate: int, url: str):
         self.__type = type
-        self.__rate = rate
+        self.__rate = int(rate)
         self.__url = url
         self.edit_callback = empty_callback
 

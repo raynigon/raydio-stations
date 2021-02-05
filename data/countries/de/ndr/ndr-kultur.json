@@ -25,7 +25,7 @@
         },
         {
             "type": "mp3",
-            "rate": "32",
+            "rate": "128",
             "url": "https://ndr-edge-20ac-fra-lg-cdn.cast.addradio.de/ndr/ndrkultur/live/mp3/128/stream.mp3"
         }
     ]
