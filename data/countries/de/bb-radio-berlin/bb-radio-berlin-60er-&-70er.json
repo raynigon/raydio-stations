@@ -4,7 +4,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
     "streams": [
         {
-            "type": "de/brf-60er-70er_mp3-128",
+            "type": "mp3",
             "rate": "128",
             "url": "https://topradio-stream19.radiohost.de/brf-60er-70er_mp3-128"
         }

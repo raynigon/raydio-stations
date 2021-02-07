@@ -8,8 +8,8 @@ def empty_callback():
 
 class DatabaseRadioStream:
 
-    def __init__(self, type: str, rate: int, url: str):
-        self.__type = type
+    def __init__(self, stream_type: str, rate: int, url: str):
+        self.__type = stream_type
         self.__rate = int(rate)
         self.__url = url
         self.edit_callback = empty_callback
@@ -21,7 +21,7 @@ class DatabaseRadioStream:
         self.__edited = False
 
     @property
-    def type(self):
+    def stream_type(self):
         return self.__type
 
     @property
@@ -32,13 +32,13 @@ class DatabaseRadioStream:
     def url(self):
         return self.__url
 
-    @type.setter
-    def type(self, value):
+    @stream_type.setter
+    def stream_type(self, value):
         self.__type = value
         self.edit_callback()
     
-    @type.setter
-    def type(self, value):
+    @stream_type.setter
+    def stream_type(self, value):
         self.__type = value
         self.edit_callback()
     

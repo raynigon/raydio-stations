@@ -4,7 +4,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
     "streams": [
         {
-            "type": "de/brf-90er-pop_mp3-192",
+            "type": "mp3",
             "rate": "192",
             "url": "https://topradio-de-hz-fal-stream02-cluster01.radiohost.de/brf-90er-pop_mp3-192"
         }

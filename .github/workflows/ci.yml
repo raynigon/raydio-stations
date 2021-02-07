@@ -5,8 +5,8 @@ on:
     branches: []
 
 jobs:
-  test_build:
-    name: "Test Build Station Repository"
+  validate:
+    name: "Validate Database"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.3.4
@@ -14,9 +14,4 @@ jobs:
       - name: "Install requirements"
         run: python3 -m pip install -r tools/requirements.txt
       - name: "Build Bundles and Station Repository"
-        run: python3 tools/rscli/main.py build-repo
-      - name: Station Repository Artifact
-        uses: actions/upload-artifact@v1.0.0
-        with:
-          name: "Station Repository"
-          path: "build/"
+        run: python3 tools/rscli/main.py validate

@@ -6,9 +6,6 @@ from shutil import rmtree
 from .model import StationRepository, RepositoryBundle, RepositoryStation, WebRadioStream
 
 def write_repository(repo: StationRepository, folder: str):
-    errors = repo.validate()
-    if len(errors) > 0:
-        raise RepositoryValidationException(errors)
     if len(listdir(folder)) > 0:
         rmtree(folder)
     bundles_folder = join(folder, "bundles")
@@ -22,8 +19,3 @@ def write_repository(repo: StationRepository, folder: str):
     with open(index_path, "w") as file:
         json.dump(repo.to_dict(), file)
 
-class RepositoryValidationException(Exception):
-
-    def __init__(self, errors: List[str]):
-        super().__init__(self, "Station Repository contains errors")
-        self.errors = errors
