@@ -1,0 +1,12 @@
+{
+    "id": "ac777f97-c69d-4684-bb27-a9611767b036",
+    "name": "BB Radio (Berlin) - 80er",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://topradio-stream21.radiohost.de/brf-80er_mp3-128"
+        }
+    ]
+}

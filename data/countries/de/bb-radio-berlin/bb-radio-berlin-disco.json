@@ -1,0 +1,12 @@
+{
+    "id": "5d71328c-efaa-4d48-a59d-2edb11c21609",
+    "name": "BB Radio (Berlin) - Disco",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "192",
+            "url": "https://topradio-de-hz-fal-stream09-cluster01.radiohost.de/brf-disco_mp3-192"
+        }
+    ]
+}

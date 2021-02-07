@@ -1,0 +1,17 @@
+{
+    "id": "89c8b389-18c4-4753-a8c0-0c7f90b0fb0f",
+    "name": "BB Radio (Berlin) - Weihnachts Hits",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/weihnachten/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/weihnachten/mp3-128/web/play.m3u"
+        }
+    ]
+}

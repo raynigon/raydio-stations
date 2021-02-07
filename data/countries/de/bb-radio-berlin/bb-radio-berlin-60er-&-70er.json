@@ -1,0 +1,12 @@
+{
+    "id": "a8682a00-50d0-4b41-a779-e0eea926c80d",
+    "name": "BB Radio (Berlin) - 60er & 70er",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://topradio-stream19.radiohost.de/brf-60er-70er_mp3-128"
+        }
+    ]
+}

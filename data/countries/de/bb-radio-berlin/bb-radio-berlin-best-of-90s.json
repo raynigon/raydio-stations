@@ -1,0 +1,17 @@
+{
+    "id": "18f78728-a8c8-4416-80f6-8441133874a3",
+    "name": "BB Radio (Berlin) - Best of 90s",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/90s/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/90s/mp3-128/web/play.m3u"
+        }
+    ]
+}

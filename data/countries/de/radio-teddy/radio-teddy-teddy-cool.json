@@ -1,0 +1,17 @@
+{
+    "id": "c7c0dd3e-5778-43ad-a496-d6b8f08542d3",
+    "name": "Radio TEDDY - TEDDY Cool",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Radio_Teddy_Logo.svg/1200px-Radio_Teddy_Logo.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/cool/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/cool/mp3-128/web/play.m3u"
+        }
+    ]
+}

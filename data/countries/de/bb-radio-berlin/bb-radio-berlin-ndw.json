@@ -1,0 +1,12 @@
+{
+    "id": "cb262790-25fe-40e4-b40b-c248498fdba2",
+    "name": "BB Radio (Berlin) - NDW",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://topradio-de-hz-fal-stream02-cluster01.radiohost.de/brf-ndw_mp3-192"
+        }
+    ]
+}

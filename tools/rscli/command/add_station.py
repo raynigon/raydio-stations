@@ -3,19 +3,10 @@ import os
 import click
 import uuid
 from .main import main
+from helper import name_to_filepath
 from typing import List
 from database import read_database, DatabaseStation, StationDatabase, DatabaseRadioStream
 
-def _name_to_filepath(source: str, name: str, country: str, corporation: str):
-    base = os.path.join(source, "countries", country, corporation)
-    filename = name.lower()\
-        .replace(" ", "-")\
-        .replace("ü","ue")\
-        .replace("ä","ae")\
-        .replace("ö","oe")\
-        .replace("(","")\
-        .replace(")","")
-    return os.path.join(base, f"{filename}.json")
 
 @main.command()
 @click.option("--source", "-s", default="data/", help='The Directory which contains the stations as JSON files')
@@ -40,7 +31,7 @@ def add_station(source: str, name: str, image_url: str, stream_url: str, stream_
     if stream_rate is None:
         stream_rate = click.prompt('Stream Rate', type=int)
     streams = [DatabaseRadioStream(stream_type, stream_rate, stream_url)]
-    station = DatabaseStation(str(uuid.uuid4()), _name_to_filepath(source, name, country, corporation), name, image_url, streams)
+    station = DatabaseStation(str(uuid.uuid4()), name_to_filepath(source, name, country, corporation), name, image_url, streams)
     database.add_station(station)
     database.save()
         

@@ -1,0 +1,27 @@
+{
+    "id": "083c9709-ee9d-4531-915c-11b71f7bc003",
+    "name": "NDR Info",
+    "imageUrl": "https://www.ndr.de/fernsehen/logoinfotv100_v-contentxl.jpg",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndrinfo-niedersachsen.cast.addradio.de/ndr/ndrinfo/niedersachsen/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndrinfo_nds.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndrinfo.m3u"
+        }
+    ]
+}

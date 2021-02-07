@@ -1,0 +1,17 @@
+{
+    "id": "bc6588d8-7f44-44c5-b666-1d4456e9915b",
+    "name": "BB Radio (Berlin) - Feten Hits",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/feten/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/feten/mp3-128/web/play.m3u"
+        }
+    ]
+}

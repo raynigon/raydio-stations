@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: []
+
+jobs:
+  validate:
+    name: "Validate Database"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-python@v2.2.1
+      - name: "Install requirements"
+        run: python3 -m pip install -r tools/requirements.txt
+      - name: "Build Bundles and Station Repository"
+        run: python3 tools/rscli/main.py validate

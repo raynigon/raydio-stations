@@ -1,0 +1,17 @@
+{
+    "id": "1ce5fc75-69b1-407f-8a8b-f3f5d549cd4d",
+    "name": "BB Radio (Berlin) - Party & Dance",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/partydance/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/partydance/mp3-128/web/play.m3u"
+        }
+    ]
+}

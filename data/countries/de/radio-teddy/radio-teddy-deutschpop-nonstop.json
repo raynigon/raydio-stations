@@ -1,0 +1,17 @@
+{
+    "id": "542346e0-0bc6-4c71-87d5-3744dc02da0a",
+    "name": "Radio TEDDY - Deutschpop Nonstop",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Radio_Teddy_Logo.svg/1200px-Radio_Teddy_Logo.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/deutschpop/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/deutschpop/mp3-128/web/play.m3u"
+        }
+    ]
+}

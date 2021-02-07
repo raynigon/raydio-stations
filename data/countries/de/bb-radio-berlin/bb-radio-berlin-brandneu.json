@@ -1,0 +1,17 @@
+{
+    "id": "6557d154-370d-4066-b6bd-a22bcefdc0f2",
+    "name": "BB Radio (Berlin) - Brandneu",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/neu/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/neu/mp3-128/web/play.m3u"
+        }
+    ]
+}

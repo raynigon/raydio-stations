@@ -1,0 +1,17 @@
+{
+    "id": "c444ca66-a73b-4825-bfdd-249cbb73201e",
+    "name": "Radio TEDDY - Gute Nacht Musik",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Radio_Teddy_Logo.svg/1200px-Radio_Teddy_Logo.svg.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/gutenacht/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streamtdy.ir-media-tec.com/gutenacht/mp3-128/web/play.m3u"
+        }
+    ]
+}

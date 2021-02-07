@@ -1,0 +1,17 @@
+{
+    "id": "8d87b15d-4ce5-40fb-a306-dcfe231e90f3",
+    "name": "BB Radio (Berlin) - Best of 80s",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/80s/mp3-128/web/play.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "128",
+            "url": "http://streambbr.ir-media-tec.com/80s/mp3-128/web/play.m3u"
+        }
+    ]
+}

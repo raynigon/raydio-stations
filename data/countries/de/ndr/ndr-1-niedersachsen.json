@@ -1,0 +1,27 @@
+{
+    "id": "ec22613f-ebdd-42d3-8f15-a5a7dafe38fe",
+    "name": "NDR 1 Niedersachsen",
+    "imageUrl": "https://www.ndr.de/media/logo276_v-contentxl.jpg",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndr1niedersachsen_han.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndr1niedersachsen.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndr1niedersachsen-hannover.cast.addradio.de/ndr/ndr1niedersachsen/hannover/mp3/128/stream.mp3"
+        }
+    ]
+}

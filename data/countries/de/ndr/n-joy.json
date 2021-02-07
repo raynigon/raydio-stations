@@ -1,0 +1,27 @@
+{
+    "id": "2f9f100e-ef8a-4861-a3da-057432dee5be",
+    "name": "N-JOY",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Njoy-logo.svg/1200px-Njoy-logo.svg.png",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/n-joy.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/n-joy.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/n-joy.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://ndr-edge-2041-dus-lg-cdn.cast.addradio.de/ndr/njoy/live/mp3/128/stream.mp3"
+        }
+    ]
+}

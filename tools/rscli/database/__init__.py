@@ -1,6 +1,7 @@
 import os
 import json
 from .model import *
+from .validator import DatabaseValidator
 
 def read_database(source: str)->StationDatabase:
     stations = []

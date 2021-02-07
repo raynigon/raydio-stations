@@ -1,0 +1,27 @@
+{
+    "id": "56958f6f-c5c4-4a7a-a672-480c390dd501",
+    "name": "NDR 90,3",
+    "imageUrl": "https://www.ard.de/image/482118/16x9/4788502961884785829/1280",
+    "streams": [
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/ndr903.m3u"
+        },
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://ndr-ndr903-hamburg.cast.addradio.de/ndr/ndr903/hamburg/mp3/128/stream.mp3"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/m3u/low/ndr903.m3u"
+        },
+        {
+            "type": "m3u",
+            "rate": "32",
+            "url": "http://www.ndr.de/resources/metadaten/audio/aac/ndr903.m3u"
+        }
+    ]
+}

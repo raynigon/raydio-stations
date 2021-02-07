@@ -1,0 +1,12 @@
+{
+    "id": "9128a3f7-1cfb-4885-87f6-8dc62cb89362",
+    "name": "BB Radio (Berlin) - Rik De Lisle Radio",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "https://topradio-de-hz-fal-stream03-cluster01.radiohost.de/brf-rik_mp3-128"
+        }
+    ]
+}

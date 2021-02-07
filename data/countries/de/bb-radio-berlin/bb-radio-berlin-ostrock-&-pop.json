@@ -1,0 +1,12 @@
+{
+    "id": "4b2955fb-e204-4847-a66b-ca4d8290ef71",
+    "name": "BB Radio (Berlin) - Ostrock & Pop",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "192",
+            "url": "https://topradio-de-hz-fal-stream02-cluster01.radiohost.de/brf-ostrock-pop_mp3-192"
+        }
+    ]
+}

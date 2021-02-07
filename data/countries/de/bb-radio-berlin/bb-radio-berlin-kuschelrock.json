@@ -1,0 +1,12 @@
+{
+    "id": "bab6c5e8-9461-4d42-b648-aa6247467d0a",
+    "name": "BB Radio (Berlin) - Kuschelrock",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/de/e/e7/BB_RADIO_Logo.png",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "192",
+            "url": "https://topradio-de-hz-fal-stream09-cluster01.radiohost.de/brf-kuschelrock_mp3-192"
+        }
+    ]
+}

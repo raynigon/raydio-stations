@@ -1,0 +1,17 @@
+{
+    "id": "29c1a93d-3849-4097-813e-d8d119487ddc",
+    "name": "94,3 rs2 - Kulthits",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/45242_logo-rs2-1819_02_1280x720.jpg",
+    "streams": [
+        {
+            "type": "mp3",
+            "rate": "128",
+            "url": "http://stream.rs2.de/rs2-80er/mp3-128"
+        },
+        {
+            "type": "aac",
+            "rate": "48",
+            "url": "http://stream.rs2.de/rs2-80er/aac-48"
+        }
+    ]
+}
