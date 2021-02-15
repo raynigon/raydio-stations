@@ -21,7 +21,7 @@ class RepositoryStation:
         self.id = id
         self.name = name
         self.imageUrl = imageUrl
-        self.streams = streams
+        self.streams = streams if len(streams) > 0 else []
 
     def to_dict(self) -> Dict[str, Any]:
         return {
