@@ -6,6 +6,8 @@ from shutil import rmtree
 from .model import StationRepository, RepositoryBundle, RepositoryStation, WebRadioStream
 
 def write_repository(repo: StationRepository, folder: str):
+    if not exists(folder):
+        makedirs(folder)
     if len(listdir(folder)) > 0:
         rmtree(folder)
     bundles_folder = join(folder, "bundles")
