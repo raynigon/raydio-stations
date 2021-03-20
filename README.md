@@ -33,7 +33,7 @@ The repository directory structure is like this:
 - `v1/`
   - `index.json` contains the informations about all bundles
   - `bundles/`
-    - `bundlename-0.json`
-    - `bundlename-1.json`
-    - `bundlename-2.json`
+    - `bundleid-0.json` A bundle contains informations about radio streams
+    - `bundleid-1.json` The bundleid is given as by the index.json
+    - `bundleid-2.json` The bundle version is increased if the bundle changed
     - ...
