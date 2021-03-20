@@ -37,3 +37,5 @@ The repository directory structure is like this:
     - `bundleid-1.json` The bundleid is given as by the index.json
     - `bundleid-2.json` The bundle version is increased if the bundle changed
     - ...
+Make sure you check the `active` flag in the `index.json`.
+If the active flag is `false` do not use the repository!
