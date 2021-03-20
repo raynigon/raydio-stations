@@ -29,3 +29,11 @@ Source for the Bundle Repository
 ## Access
 
 You can access the created bundles [here](https://stations.rayd.io/v1/index.json)
+The repository directory structure is like this:
+- `v1/`
+  - `index.json` contains the informations about all bundles
+  - `bundles/`
+    - `bundlename-0.json`
+    - `bundlename-1.json`
+    - `bundlename-2.json`
+    - ...
