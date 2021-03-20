@@ -26,3 +26,6 @@ Source for the Bundle Repository
 5. Create a PR, all CI Pipelines should be green in order to accept your PR as fast as possible
 6. We will merge your PR and you can refresh the stations in [rayd.io](https://rayd.io)
 
+## Access
+
+You can access the created bundles [here](https://stations.rayd.io/v1/index.json)
